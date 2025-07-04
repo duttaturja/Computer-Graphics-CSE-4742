@@ -48,7 +48,6 @@ int main() {
     initgraph(&gd, &gm, "");
 
     int size = 60; // Size of each character
-
     // Draw "ABC" at position (100, 100)
     drawOutlineString(100, 100, "ABC", size, WHITE);
 
